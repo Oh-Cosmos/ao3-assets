@@ -1,0 +1,85 @@
+.site-skin-metadata {
+  content: "==================================================
+
+  - Paste at the BOTTOM of your base skin
+  - Customize the text inside the Quotation Marks " "
+  - Updated:      2026-Oct-14
+
+  ==========================================================";
+}
+.bookmarks-index li.bookmark:nth-child(19n):has(.tags):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "Buckle up, boys. It's about to get weird.";
+  letter-spacing: 0.05em;
+}
+
+.bookmarks-index li.bookmark:nth-child(17n):not(:nth-child(19n)):has(.tags):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "Unexpected complication! Unexpected complication!";
+  letter-spacing: 0.05em;
+}
+
+.bookmarks-index li.bookmark:nth-child(13n):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "THIS is a job for Dr. Delicate Touch.";
+}
+
+.bookmarks-index li.bookmark:nth-child(11n):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "It's Bootyyyshaker9000. Capital B and three y's in 'booty.'";
+}
+
+.bookmarks-index li.bookmark:nth-child(7n):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "I agree with Leo... a sentence I doubt I'll ever repeat...";
+}
+
+.bookmarks-index li.bookmark:nth-child(5n):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "HOT SOUP!";
+  font-weight: bold;
+}
+
+.bookmarks-index li.bookmark:nth-child(4n):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "Prepare to eateth thy words";
+}
+
+.bookmarks-index li.bookmark:nth-child(3n):not(:nth-child(4n)):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "I concur. We rad!";
+}
+
+.bookmarks-index li.bookmark:nth-child(2n):not(:nth-child(3n)):not(:nth-child(4n)):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "Mystic metal needed, TOP COIN PAID!";
+}
+
+.works-index li.work.blurb:nth-child(19n):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "Hatchi Matchi";
+  opacity: 0.75;
+}
+
+.works-index li.work.blurb:nth-child(17n):not(:nth-child(19n)):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "Sorry Don-Ton, I gotta win! Tried losing once, wasn't for me.";
+  opacity: 0.75;
+}
+
+.works-index li.work.blurb:nth-child(13n):not(:nth-child(17n)):not(:nth-child(19n)):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "LIKE A BOSS!";
+}
+
+.works-index li.work.blurb:nth-child(11n):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "Leon's got it!";
+}
+
+.works-index li.work.blurb:nth-child(7n):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "Nailed it! ...Eventually.";
+}
+
+.works-index li.work.blurb:nth-child(5n):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "Oh my banana pancakes!";
+}
+
+.works-index li.work.blurb:nth-child(4n):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "Applause. And applause. And waiting for your applause.";
+}
+
+.works-index li.work.blurb:nth-child(3n):not(:nth-child(4n)):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "You must be THIS rad to ride that ride";
+}
+
+.works-index li.work.blurb:nth-child(2n):not(:nth-child(3n)):not(:nth-child(4n)):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):not(:has(a.tag[href*="Dead%20Dove"])):not(:has(a.tag[href*="Tcest"]))::before {
+  content: "¡Vamonos, Hermanos!";
+}
