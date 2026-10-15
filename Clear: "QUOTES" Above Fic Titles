@@ -1,0 +1,129 @@
+.site-skin-metadata {
+  content: "========================================================
+  AO3 LOOPS: RANDOMIZED WORK & BOOKMARK QUOTES
+  ========================================================
+  [ HOW TO USE ]
+  1. Copy this entire block of code.
+  2. Paste it at the very BOTTOM of your existing AO3 base skin.
+  3. Replace the placeholder \" TEXT \" values with your quotes.
+  
+  [ HOW TO FORMAT TEXT INSIDE QUOTES ]
+  Because this code uses CSS content properties, you CANNOT use standard HTML tags 
+  like <b> or <i>. Instead, add layout lines directly inside the brackets { }:
+  
+  - TO MAKE A QUOTE BOLD: 
+    Add 'font-weight: bold;' on a new line under the content rule.
+    
+  - TO MAKE A QUOTE ITALIC: 
+    Add 'font-style: italic;' on a new line under the content rule.
+    
+  - TO MIX BOTH BOLD AND ITALIC: 
+    Add both lines on separate rows under your quote content rule.
+
+  Updated: 2026-Oct-14
+  ========================================================";
+}
+
+/* ==========================================================================
+   BOOKMARKS INDEX LOOP (:nth-child) - Sorted Descending
+   ========================================================================== */
+
+/* 19n */
+.bookmarks-index li.bookmark:nth-child(19n):has(.tags)::before {
+  content: " TEXT ";
+  letter-spacing: 0.05em;
+}
+
+/* 17n */
+.bookmarks-index li.bookmark:nth-child(17n):not(:nth-child(19n)):has(.tags)::before {
+  content: " TEXT ";
+  letter-spacing: 0.05em;
+}
+
+/* 13n */
+.bookmarks-index li.bookmark:nth-child(13n):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags)::before {
+  content: " TEXT ";
+}
+
+/* 11n */
+.bookmarks-index li.bookmark:nth-child(11n):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags)::before {
+  content: " TEXT ";
+}
+
+/* 7n */
+.bookmarks-index li.bookmark:nth-child(7n):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags)::before {
+  content: " TEXT ";
+}
+
+/* 5n */
+.bookmarks-index li.bookmark:nth-child(5n):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags)::before {
+  content: " TEXT ";
+  font-weight: bold;
+}
+
+/* 4n */
+.bookmarks-index li.bookmark:nth-child(4n):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags)::before {
+  content: " TEXT ";
+}
+
+/* 3n */
+.bookmarks-index li.bookmark:nth-child(3n):not(:nth-child(4n)):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags)::before {
+  content: " TEXT ";
+}
+
+/* 2n */
+.bookmarks-index li.bookmark:nth-child(2n):not(:nth-child(3n)):not(:nth-child(4n)):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n)):has(.tags)::before {
+  content: " TEXT ";
+}
+
+
+/* ==========================================================================
+   WORKS INDEX LOOP (:nth-child) - Sorted Descending
+   ========================================================================== */
+
+/* 19n */
+.works-index li.work.blurb:nth-child(19n)::before {
+  content: " TEXT ";
+  opacity: 0.75;
+}
+
+/* 17n */
+.works-index li.work.blurb:nth-child(17n):not(:nth-child(19n))::before {
+  content: " TEXT ";
+  opacity: 0.75;
+}
+
+/* 13n */
+.works-index li.work.blurb:nth-child(13n):not(:nth-child(17n)):not(:nth-child(19n))::before {
+  content: " TEXT ";
+}
+
+/* 11n */
+.works-index li.work.blurb:nth-child(11n):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n))::before {
+  content: " TEXT ";
+}
+
+/* 7n */
+.works-index li.work.blurb:nth-child(7n):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n))::before {
+  content: " TEXT ";
+}
+
+/* 5n */
+.works-index li.work.blurb:nth-child(5n):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n))::before {
+  content: " TEXT ";
+}
+
+/* 4n */
+.works-index li.work.blurb:nth-child(4n):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n))::before {
+  content: " TEXT ";
+}
+
+/* 3n */
+.works-index li.work.blurb:nth-child(3n):not(:nth-child(4n)):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n))::before {
+  content: " TEXT ";
+}
+
+/* 2n */
+.works-index li.work.blurb:nth-child(2n):not(:nth-child(3n)):not(:nth-child(4n)):not(:nth-child(5n)):not(:nth-child(7n)):not(:nth-child(11n)):not(:nth-child(13n)):not(:nth-child(17n)):not(:nth-child(19n))::before {
+  content: " TEXT ";
+}
