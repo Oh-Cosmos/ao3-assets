@@ -1,0 +1,15 @@
+#main h2.heading::before {
+  content: "╭────────.★..─╮";
+  display: block;
+  margin-top: 0.2em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+#main h2.heading::after {
+  content: "╰─..★.────────╯";
+  display: block;
+  margin-top: 0.2em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
